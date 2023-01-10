@@ -1,1 +1,8 @@
 #sample_shield_login_fn
+
+## env
+
+`JWT_SECRET_ACCESS,
+JWT_SECRET_REFRESH,
+JWT_EXPIRY_ACCESS,
+JWT_EXPIRY_REFRESH`

@@ -4,13 +4,17 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js --port=3000"
+        "start": "node index.js --port=3000"
     },
     "type": "module",
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-    "express": "^4.17.3"
+        "@appblocks/node-sdk": "https://github.com/appblocks-hub/node-sdk.git",
+        "express": "^4.17.3",
+        "bcrypt": "^5.1.0",
+        "jsonwebtoken": "^9.0.0",
+        "nanoid": "^4.0.0"
     }
-  }
+}
